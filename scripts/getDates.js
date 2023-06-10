@@ -3,11 +3,9 @@
 // Get the current year
 var currentYear = new Date().getFullYear();
 
-// Get the date the document was last modified
-var lastModifiedDate = new Date(document.lastModified);
-
 // Output the copyright year to the footer
 document.getElementById("copyrightYear").innerHTML = currentYear;
 
 // Output the last modified date to the footer
-document.getElementById("lastModified").innerHTML = lastModifiedDate.toLocaleDateString();
+let lastModified = document.lastModified;
+document.querySelector("#lastModified").innerHTML = `Last Modification: ${lastModified}`;
