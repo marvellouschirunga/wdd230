@@ -13,7 +13,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	margin: 0 auto;
 	max-width: 1000px;
-	color: #830909;
+	color: #011627;
 }
 
 header {
@@ -130,6 +130,7 @@ main h2 {
 .card div {
 	text-align: center;
 	padding: 20px;
+	color: #fff;
 }
 
 footer {
