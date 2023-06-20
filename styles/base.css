@@ -13,7 +13,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	margin: 0 auto;
 	max-width: 1000px;
-	color: #011627;
+	color: #2b2d42;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
 	flex-direction: column-reverse;
 	align-items: center;
 	gap: 5px;
-	background-color: #011627;
+	background-color: #2b2d42;
 	padding: 20px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -52,7 +52,7 @@ p {
 }
 
 nav {
-	background-color:  #B39917;
+	background-color:  #8d99ae;
 	margin-bottom: 20px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
@@ -75,11 +75,11 @@ a {
 
 .nav-ul li a:hover {
 	padding: 10px;
-	background-color: #B39917;
+	background-color: #8d99ae;
 }
 
 .active {
-	background-color: #FCD621;
+	background-color: #edf2f4;
 }
 
 main {
@@ -100,7 +100,7 @@ main h2 {
 }
 
 .card {
-	background-color: #011627;
+	background-color: #2b2d42;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 255, 255, 0.2);
 	margin-bottom: 20px;
 	border-radius: 6px;
@@ -108,7 +108,7 @@ main h2 {
 }
 
 .card h3 {
-	background-color: #2ec4b6;
+	background-color: #0081a7;
 	padding: 10px;
 	margin-bottom: 5px;
 	text-align: center;
@@ -134,7 +134,7 @@ main h2 {
 }
 
 footer {
-	background-color: #B39917;
+	background-color: #8d99ae;
 	color: #000;
 	text-align: center;
 	padding: 10px;
