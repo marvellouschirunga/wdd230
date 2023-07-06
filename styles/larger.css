@@ -1,42 +1,21 @@
-@media (min-width: 32.5em) {
-    body {
-      margin: 20px auto;
-    }
+@media only screen and (min-width: 38rem) {
+  button#hamburger {display: none;}
+  nav ul, nav ul.show {display: flex;}
 
-    header {
-      align-items: center;
-      gap: 15px;
-      flex-direction: row;
-    }
+	nav ul li {
+		flex: 1 1 100%;
+	}
 
-    h1 {
-      font-size: 2.3rem;
-    }
+  header, main, nav, footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
 
-    h2 {
-      font-size: 1.8rem;
-    }
+  .sidebyside {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 16px;
+  }
 
-    .nav-ul {
-      display: flex;
-    }
 
-    .nav-ul li {
-      flex: 1 1 100%;
-    }
-
-    main {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      column-gap: 25px;
-      max-width: 900px;
-    }
-
-    main div {
-      grid-column: 1 / span 2;
-    }
-
-    .footer-text {
-      display: inline-block;
-    }
-}
+} /* end media query */

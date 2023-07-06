@@ -1,0 +1,82 @@
+{
+  "weeks": [
+    {
+      "week": "Week 01",
+      "links": [
+        {
+          "title": "Grail",
+          "url": "assignment1.html"
+        },
+        {
+          "title": "Media Query",
+          "url": "assignment2.html"
+        }
+      ]
+    },
+    {
+      "week": "Week 02",
+      "links": [
+        {
+          "title": "Design",
+          "url": "assignment1.html"
+        },
+        {
+          "title": "Menu",
+          "url": "https://codepen.io/marvellouschirunga/pen/rNQzGOB"
+        },
+        {
+          "title": "BOM-25",
+          "url": "assignment3.html"
+        }
+      ]
+    },
+    {
+      "week": "Week 03",
+      "links": [
+        {
+          "title": "WebP",
+          "url": "assignment1.html"
+        },
+        {
+          "title": "Lazy",
+          "url": "assignment2.html"
+        },
+        {
+          "title": "srcset",
+          "url": "assignment3.html"
+        },
+        {
+          "title": "localStorage",
+          "url": "assignment4.html"
+        }
+      ]
+    },
+    {
+      "week": "Week 04",
+      "links": [
+        {
+          "title": "Learning Activity",
+          "url": "assignment1.html"
+        }
+      ]
+    },
+    {
+      "week": "Week 05",
+      "links": [
+        {
+          "title": "Learning Activity",
+          "url": "assignment1.html"
+        }
+      ]
+    },
+    {
+      "week": "Week 06",
+      "links": [
+        {
+          "title": "Learning Activity",
+          "url": "assignment1.html"
+        }
+      ]
+    }
+  ]
+}

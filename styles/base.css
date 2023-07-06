@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-
-
 * {
 	margin: 0;
 	padding: 0;
@@ -9,145 +5,146 @@
 }
 
 body {
-	background-color: #fff;
-	font-family: "Roboto", sans-serif;
-	margin: 0 auto;
-	max-width: 1000px;
-	color: #2b2d42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
 }
 
+/************************** HEADER **************************/
 header {
+	background-color: #8d99ae;
 	display: flex;
-	flex-direction: column-reverse;
 	align-items: center;
-	gap: 5px;
-	background-color: #2b2d42;
+	justify-content: center;
 	padding: 20px;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-}
-
-header img {
-	border-radius: 5px;
-}
-
-h1,
-h2,
-h3 {
-	font-family: "Anonymous Pro", sans-serif;
-}
-
-h1 {
-	text-align: center;
-	color: #fff;
-	font-size: 1.5rem;
-}
-
-h2 {
-	font-size: 1.2rem;
-}
-
-p {
-	margin: 10px auto;
-}
-
-nav {
-	background-color:  #8d99ae;
-	margin-bottom: 20px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
-
-ul li {
-	list-style-type: none;
-}
-
-.nav-ul li a {
-	display: block;
-	text-align: center;
-	padding: 10px;
-	color: #000;
-}
-
-a {
-	text-decoration: none;
-}
-
-.nav-ul li a:hover {
-	padding: 10px;
-	background-color: #8d99ae;
-}
-
-.active {
-	background-color: #edf2f4;
-}
-
-main {
-	display: block;
-	margin: 0 auto;
-	max-width: 350px;
-	margin-bottom: 20px;
-}
-
-main h2 {
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.hr {
-	margin-top: -1rem;
-	margin-bottom: 2rem;
-}
-
-.card {
-	background-color: #2b2d42;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 255, 255, 0.2);
-	margin-bottom: 20px;
-	border-radius: 6px;
-	overflow: hidden;
-}
-
-.card h3 {
-	background-color: #0081a7;
-	padding: 10px;
-	margin-bottom: 5px;
-	text-align: center;
-	color: #000;
-}
-
-.card ul {
-	padding: 10px 20px;
-}
-
-.card ul li {
-	margin-bottom: 10px;
-}
-
-.card ul li a {
-	color: #fff;
-}
-
-.card div {
-	text-align: center;
-	padding: 20px;
-	color: #fff;
-}
-
-footer {
-	background-color: #8d99ae;
-	color: #000;
-	text-align: center;
-	padding: 10px;
-	border-radius: 5px;
-}
-
-.footer-text {
-	display: block;
 	position: relative;
 }
 
-.footer-text img {
+h1 {
+	font-size: 2rem;
+}
+
+
+/************************** NAVIGATION **************************/
+button#hamburger {
+	background: none;
+	border: none;
+	display: block;
+	padding-bottom: .6rem;
+	font-size: 2rem;
+	color: #fff;
+	text-align: center;
+	width: 50px;
+	cursor: pointer;
+}
+
+button#hamburger::before {
+	content: "☰"; 
+}
+button#hamburger.show::before {
+	content: "❌";
+}
+nav ul {
+	display: none;
+}
+nav ul.show {
+	display: block;
+}
+
+nav {
+	background-color: #2b2d42;
+	padding: 0;
+	margin: 0;
+}
+nav ul {
+	list-style-type: none;
+}
+nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: .5rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.active {
+	background-color: rgba(0,0,0,0.2);
+}
+/* dark mode */
+#darkBtn {
 	position: absolute;
-	top: -5px;
-	margin-left: 4px;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+	width: 24px;
+}
+/*========================================================*/
+main {
+	padding: 1rem;
+}
+
+main.dark {background-color: #222;}
+main.dark h2 {color: white;}
+main h2 {
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px rgba(0,0,0,0.5);
+}
+main section {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #eee;
+  margin-bottom: .5rem;
+}
+main h3 {
+  background-color: #8d99ae;
+  text-align: center;
+  padding: .5rem;
+}
+main p{
+  margin: 1rem;
+}
+main ul {
+  list-style-position: inside;
+  margin: 1rem;
+}
+main ul li {
+	list-style-type: none;
+	line-height: 150%;
+}
+main ul li::before {color: #2b2d42; content: "\2022";}
+main h4 {
+	margin: 1rem 0 0 1rem;
+	padding: 0;
+	color: #2b2d42;
+}
+main a {color:#333;}
+
+/*================= HERO =======================================*/
+.hero {width: 100%; position: relative;}
+.hero img {
+	width: 100%;
+	height: auto;
+}
+.hero div {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 1rem;
+	font-weight: 400;
+	color: #6f1e23;
+	background-color: rgba(255,255,255,0.6);
+	border-radius: 6px;
+	border-left: 4px solid #6f1e23;
+}
+
+/*========================================================*/
+footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #8d99ae;
 }
