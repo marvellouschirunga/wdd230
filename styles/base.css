@@ -41,7 +41,7 @@ button#hamburger::before {
 	content: "☰"; 
 }
 button#hamburger.show::before {
-	content: "❌";
+	content: "x";
 }
 nav ul {
 	display: none;
