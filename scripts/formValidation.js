@@ -1,14 +1,14 @@
 //Form Validation
-const user1 = document.querySelector('input[name=pass1]')
-const user2 = document.querySelector('input[name=pass2]')
+const password1 = document.querySelector('input[name=pass1]')
+const password2 = document.querySelector('input[name=pass2]')
 const matchMessage = document.querySelector('#feedback')
-user2.addEventListener("focusout", matchCheck);
+password2.addEventListener("focusout", matchCheck);
 function matchCheck() {
-  if (user1.value !== user2.value) {
-    matchMessage.textContent = "Sorry, usernames DO NOT MATCH"
-    user1.value = "";
-    user2.value = "";
-    user1.focus();
+  if (password1.value !== password2.value) {
+    matchMessage.textContent = "Sorry, passwords do not match"
+    password1.value = "";
+    password2.value = "";
+    password1.focus();
   } else {
     matchMessage.textContent = ""
   }
