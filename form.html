@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marvellous Chirunga - WDD230 - Web Frontend Development</title>
+  <title>Marvellous Chirunga - WDD 230 - Web Frontend Development</title>
   <meta name="description" content="Marvellous Chirunga - WDD230 - course assignment portal">
   <meta name="author" content="Marvellous Chirunga">
 
@@ -42,15 +42,15 @@
   <main>
 <h2>Web Form</h2>
 
-<form action="">
-  <label>Username:<input type="text" name="username" required pattern="^(?=[a-zA-Z0-9._]{8,20}$)(?!.*[_.]{2})[^_.].*[^_.]$" title="Please enter a valid username"></label>
-  <label>Password:<input type="password" name="pass1" required pattern="[a-zA-Z0-9]{8,}"></label>
-  <label>Password:<input type="password" name="pass2" required pattern="[a-zA-Z0-9]{8,}"></label>
+<form action="record.html" method="get">
+  <label>Username:<input type="text" id="username" name="username" required pattern="^(?=[a-zA-Z0-9._]{8,20}$)(?!.*[_.]{2})[^_.].*[^_.]$" title="Please enter a valid username"></label>
+  <label>Password:<input type="password" id="password1" name="pass1" required pattern="[a-zA-Z0-9]{8,}"></label>
+  <label>Password:<input type="password" id="password2" name="pass2" required pattern="[a-zA-Z0-9]{8,}"></label>
   <div id="feedback"></div>
-  <label>Email:<input type="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid BYUi email address"></label>
+  <label>Email:<input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid BYUi email address"></label>
   <label>Page Rating (<span id="rating"></span>):<input type="range" name="rating" min="1" max="10" required></label>
 
-  <input type="submit" value="Send my review">
+  <input type="submit" value="Submit Rating">
 </form>
 
   </main>

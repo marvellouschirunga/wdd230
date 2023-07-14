@@ -1,0 +1,68 @@
+{
+    "members": [
+    {
+        "name": "The Victoria Falls Hotel",
+        "address":"1, Mallet Drive, PO Box 10, Victoria Falls",
+        "phone": "+263 780 100 312",
+        "url" :"https://www.victoriafallshotel.com/",
+        "logopath": "vf.webp",
+        "level": 0
+    },
+    {
+        "name": "Ecocash Holdings",
+        "address":"1906 Borrowdale Road Borrowdale, Harare",
+        "phone": "315-555-1234",
+        "url" :"https://www.ecocashholdings.co.zw/",
+        "logopath": "ecocash.png",
+        "level": 3
+    },
+    {
+        "name": "Econet Wireless",
+        "address":"Willow Wood Office Park, 220 Third Street, Broadacres, South Africa",
+        "phone": "+27 11 996 5500",
+        "url" :"www.econetwireless.com/",
+        "logopath": "econet.png",
+        "level": 3
+    },
+    {
+        "name": "Old Mutual Zimbabwe",
+        "address":"100 The Chase, Mutual Gardens, Emerald Hill, Harare",
+        "phone": "+263 242 308400",
+        "url" :"https://www.oldmutual.co.zw/",
+        "logopath": "oldmutual.webp",
+        "level": 3
+    },
+    {
+        "name": "Antelope Park",
+        "address":"P.O. Box 1218, Gweru, Zimbabwe",
+        "phone": "+263 772 609 541",
+        "url" :"https://antelopepark.co.zw/",
+        "logopath": "antelope.png",
+        "level": 2
+    },
+    {
+        "name": "Air Zimbabwe",
+        "address":"P.O.Box AP1 Robert Gabriel, Mugabe International Airport, Harare, Zimbabwe.",
+        "phone": "+263-24-2575 111",
+        "url" :"https://www.airzimbabwe.aero/",
+        "logopath": "airzim.png",
+        "level": 1
+    },
+    {
+        "name": "First Mutual",
+        "address":"First Mutual Holdings Limited, First Mutual Park, 100 Borowdale Rd, Borrowdale, Harare",
+        "phone": "315-555-7913",
+        "url" :"https://www.firstmutual.co.zw/",
+        "logopath": "first_mutual_logo-324x104.png",
+        "level": 3
+    },
+    {
+        "name": "CBZ Holdings",
+        "address":"57 Samora Machel Avenue, Harare",
+        "phone": "+263 774 132 320",
+        "url" :"https://www.cbz.co.zw/",
+        "logopath": "cbz.png",
+        "level": 3
+    }
+]
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Victoria Falls Chamber of Chamber of Commerce Site">
+  <meta name="author" content="Marvellous Chirunga">
+
+  <meta property="og:title" content="WDD 230 - Chamber - Marvellous Chirunga">
+  <meta property="og:url" content="https://marvellouschirunga.github.io/wdd230/">
+  <meta property="og:description" content="We are committed to helping businesses grow and prosper in Victoria Falls. If you are a business owner or organization, we encourage you to join the Chamber of Commerce and take advantage of our many resources.">
+  <meta property="og:image" content="https://marvellouschirunga.github.io/wdd230/images/logo.png">
+
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <title>Victoria Falls Chamber of Commerce</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Site Logo">
+    <div>
+      <h1>Victoria Falls</h1>
+      <p>Chamber of Commerce</p>
+    </div>
+    <nav>
+      <button id="menu-button">☰</button>
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <div id="banner">JOIN NOW! And experience the Mosi-oa-Tunya from within.</div>
+    
+    <div class="hero">
+      <img src="images/hero-large.webp" alt="hero">
+      <a href="#">Join Now!</a>
+    </div>
+
+    <div class="cards" id="cards">
+      <section class="events">
+        <h2>About Victoria Falls</h2>
+        <p>Welcome to Victoria Falls, a natural wonder of the world, and one of the most popular tourist destinations in Africa. Sacredly located on the Zambezi River, on the border between Zambia and Zimbabwe with falls 1.7 kilometers (1 mile) wide and 108 meters (360 feet) high, making them the largest waterfall in the world by volume of water.</p>
+
+        <p>The Mosi-oa-Tunya, which means "The Smoke that Thunders." This is a fitting name, as the falls create a huge cloud of mist that can be seen from miles away. The noise of the falls is also deafening, and can be heard up to 40 kilometers away.</p>
+            
+        <p>There are many ways to experience Victoria Falls. You can walk along the edge of the falls, take a boat trip on the Zambezi River, or go on a helicopter tour. There are also a number of adventure activities available, such as bungee jumping, white-water rafting, and skydiving.            
+            No matter how you choose to experience Victoria Falls, you are sure to be amazed by its beauty and power. This is a truly unforgettable place that should be on everyone's bucket list.</p>
+      </section>
+      <section class="weather">
+        <h2>Current <span id="town"> weather</span></h2>
+        <p class="current">Now: <span id="temp">x</span> with <span id="desc">x</span></p>
+        <h3>Forecast</h3>
+        <div id="forecast"></div>
+      </section>
+
+    </div><!-- end cards -->
+  </main>
+  <footer>
+    <section>
+      <img src="images/logo.png" alt="Site Logo">
+      <div>
+        <p>Victoria Falls Chamber of Commerce</p>
+        <p>2418 Falls Road</p>
+        <p>Victoria Falls, Zimbabwe</p>
+      </div>
+    </section>
+    <section>
+      <p>info@victoriafalls.org</p>
+      <p><a href="tel:263782359999">(263) 782359999</a></p>
+      <p>Find us on <a href="https://goo.gl/maps/nrYgHVWyiMYXtRDXA">Google Maps</a></p>
+    </section>
+    <section>
+      <p>&copy;2023 victorifallschamber</p>
+      <p>Marvellous Chirunga</p>
+      <p>WDD 230 Class Project</p>
+      <p id="lastModified"></p>
+    </section>
+  </footer>
+  <script src="scripts/common.js"></script>
+  <script src="scripts/banner.js"></script>
+  <script src="scripts/weatherCurrent.js"></script>
+  <script src="scripts/weatherforecast.js"></script>
+  <script src="scripts/spotlight.js"></script>
+</body>
+
+</html>
