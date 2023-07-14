@@ -27,7 +27,7 @@ header p {
 }
 
 
-/*Navagation goes here*/
+/*Navigation*/
 #menu-button {
   background: none;
   border: none;
@@ -93,9 +93,10 @@ main p {
 /*Hero*/
 div.hero {
   width: 100%;
+  height: auto;
   position: relative;
 }
-div.hero img {width: 100%;}
+div.hero img {width: 100%; height: auto;}
 div.hero a {
   display: block;
   position: absolute;
