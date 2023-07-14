@@ -115,7 +115,7 @@ div.hero a:hover {font-size: 150%;}
 /*Weather*/
 .current {
   font-size: 1.2rem;
-  color: #6f8f86
+  color: #070707
 }
 #forecast {
   display: flex;
@@ -131,7 +131,7 @@ div.hero a:hover {font-size: 150%;}
 }
 
 #forecast p.temp {font-size: 2rem;}
-#forecast p.desc {color: #5e646e}
+#forecast p.desc {color: #080808}
 
 
 /* Cards*/
