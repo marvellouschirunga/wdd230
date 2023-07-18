@@ -209,7 +209,7 @@ form label, form textarea{
 form textarea{width: 300px;}
 form fieldset label{margin: .5rem 0;}
 form fieldset {margin-bottom: 1rem; width: 300px;}
-form input[type='text'], form input[type='tel'] {
+form input[type='text'], form input[type='tel'], form input[type='email'] {
   display: block;
   width: 300px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -245,7 +245,7 @@ div#theButtons button {
 div#members {
   margin: 0 2vw;
 }
-/*GRID layout here*/
+/*GRID layout*/
 div.grid {
   display: flex;
   flex-wrap: wrap;
@@ -265,7 +265,7 @@ div.grid img:first-child {width: 100%;}
 div.grid h3 {margin: .2rem 0;}
 div.grid p {margin: .2rem 0;}
 
-/*LIST layout here*/
+/*LIST layout*/
 div.list section {
   display: grid;
   grid-template-columns: auto auto auto auto 55px;
@@ -277,7 +277,7 @@ div.list section {
 }
 div.list img:first-child {display: none;}
 
-/*Footer goes here*/
+/*Footer*/
 footer {
   background-color: #6f8f86;
 }
